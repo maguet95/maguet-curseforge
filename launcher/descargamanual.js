@@ -254,7 +254,7 @@ function pedir(faltan, o) {
         if (o.abrirDentro) {
             if (yaAutorizo()) {
                 avisado = true
-                alAvisar('Abriendo la página de cada mod de CurseForge, uno por uno: pulsa «Download» en cada una…')
+                alAvisar('Bajando los mods de CurseForge desde su página oficial, uno por uno…')
                 setTimeout(bajarTodos, 400)
             } else {
                 aviso.hidden = false
